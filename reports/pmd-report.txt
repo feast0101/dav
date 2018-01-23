@@ -1,0 +1,394 @@
+src/com/kmbt/csa/dav/bo/DataBo.java:5:	Avoid unused imports such as 'javax.servlet.http.HttpSession'
+src/com/kmbt/csa/dav/bo/DataBo.java:13:	Avoid modifiers which are implied by the context
+src/com/kmbt/csa/dav/bo/DataBo.java:15:	Avoid modifiers which are implied by the context
+src/com/kmbt/csa/dav/bo/DataBo.java:17:	Avoid modifiers which are implied by the context
+src/com/kmbt/csa/dav/bo/UserBo.java:7:	Avoid modifiers which are implied by the context
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:10:	Avoid unused imports such as 'javax.annotation.PostConstruct'
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:15:	Avoid unused imports such as 'org.springframework.context.annotation.Scope'
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:19:	Avoid unused imports such as 'org.springframework.web.bind.annotation.ModelAttribute'
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:20:	Avoid unused imports such as 'org.springframework.web.bind.annotation.SessionAttributes'
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:32:	The class 'DataBoImpl' has a Cyclomatic Complexity of 4 (Highest = 13).
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:34:	Use explicit scoping instead of the default package private level
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:37:	Use explicit scoping instead of the default package private level
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:38:	Avoid variables with short names like da
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:40:	Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:42:	Parameter 'binder' is not assigned and could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:43:	Local variable 'dateFormat' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:43:	When instantiating a SimpleDateFormat object, specify a Locale
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:58:	Found 'UR'-anomaly for variable 'type' (lines '58'-'72').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:59:	Local variable 'list' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:61:	Avoid variables with short names like wk
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:61:	Found 'DD'-anomaly for variable 'wk' (lines '61'-'73').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:61:	Found 'DU'-anomaly for variable 'wk' (lines '61'-'87').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:62:	Found 'DU'-anomaly for variable 'cal' (lines '62'-'87').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:62:	Local variable 'cal' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:63:	Local variable 'loglist' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:64:	Avoid variables with short names like it
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:64:	Local variable 'it' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:64:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:67:	debug logging that involves string concatenation should be guarded with isDebugEnabled() checks
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:69:	Found 'DD'-anomaly for variable 'week' (lines '69'-'69').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:69:	Found 'DU'-anomaly for variable 'week' (lines '69'-'87').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:69:	Local variable 'week' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:70:	Local variable 'type' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:72:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:73:	Found 'DD'-anomaly for variable 'wk' (lines '73'-'73').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:76:	Local variable 'year' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:77:	Local variable 'month' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:79:	Avoid instantiating new objects inside loops
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:79:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:79:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:80:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:81:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:81:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:83:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:89:	Parameter 'monthid' is not assigned and could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:89:	The method 'getMonthName' has a Cyclomatic Complexity of 13.
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'100').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'103').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'106').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'109').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'112').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'115').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'118').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'121').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'124').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'127').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'130').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'94').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:91:	Found 'DD'-anomaly for variable 'monthname' (lines '91'-'97').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:136:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:137:	Avoid variables with short names like lt
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:137:	Local variable 'lt' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:138:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:144:	Local variable 'loglist' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:145:	Consider simply returning the value vs storing it in local variable 'loglist'
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:148:	Found 'UR'-anomaly for variable 'type' (lines '148'-'161').
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:148:	Parameter 'args' is not assigned and could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:149:	Local variable 'date' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:150:	Local variable 'cal' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:151:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:152:	Local variable 'year' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:152:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:153:	Local variable 'month' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:153:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:154:	Local variable 'week' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:154:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:155:	Local variable 'week2' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:155:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:156:	Local variable 'day' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:156:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:157:	System.out.print is used
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:160:	Local variable 'type' could be declared final
+src/com/kmbt/csa/dav/bo/impl/DataBoImpl.java:161:	System.out.print is used
+src/com/kmbt/csa/dav/bo/impl/UserBoImpl.java:14:	Use explicit scoping instead of the default package private level
+src/com/kmbt/csa/dav/bo/impl/UserBoImpl.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/bo/impl/UserBoImpl.java:26:	Parameter 'usr' is not assigned and could be declared final
+src/com/kmbt/csa/dav/bo/impl/UserBoImpl.java:28:	Local variable 'udm' could be declared final
+src/com/kmbt/csa/dav/bo/impl/UserBoImpl.java:30:	Avoid using if statements without curly braces
+src/com/kmbt/csa/dav/bo/impl/UserBoImpl.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/bo/impl/UserBoImpl.java:30:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/UserBoImpl.java:30:	These nested if statements could be combined
+src/com/kmbt/csa/dav/bo/impl/UserBoImpl.java:31:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/bo/impl/UserBoImpl.java:31:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/bo/impl/UserBoImpl.java:32:	A method should have only one exit point, and that should be the last statement in the method
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:10:	Avoid unused imports such as 'javax.annotation.PostConstruct'
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:39:	Use explicit scoping instead of the default package private level
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:42:	Use explicit scoping instead of the default package private level
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:45:	Use explicit scoping instead of the default package private level
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:46:	Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:49:	Parameter 'userValidator' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:54:	Parameter 'user' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:55:	Parameter 'result' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:55:	Parameter 'session' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:55:	Parameter 'status' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:61:	A method should have only one exit point, and that should be the last statement in the method
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:61:	The String literal "LoginForm" appears 4 times in this file; the first occurrence is on line 61
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:64:	Avoid variables with short names like lt
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:64:	Local variable 'lt' could be declared final
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:67:	A method should have only one exit point, and that should be the last statement in the method
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:73:	Parameter 'model' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:75:	Local variable 'user' could be declared final
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:90:	Parameter 'model' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:90:	Parameter 'status' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/AuthenticationController.java:90:	Parameter 'user' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:23:	Avoid unused imports such as 'org.springframework.web.bind.annotation.ResponseBody'
+src/com/kmbt/csa/dav/controller/DashboardController.java:25:	Avoid unused imports such as 'org.springframework.web.servlet.ModelAndView'
+src/com/kmbt/csa/dav/controller/DashboardController.java:28:	Avoid unused imports such as 'com.kmbt.csa.dav.model.DBDataModel'
+src/com/kmbt/csa/dav/controller/DashboardController.java:44:	Use explicit scoping instead of the default package private level
+src/com/kmbt/csa/dav/controller/DashboardController.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/controller/DashboardController.java:46:	Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/com/kmbt/csa/dav/controller/DashboardController.java:49:	Avoid variables with short names like lt
+src/com/kmbt/csa/dav/controller/DashboardController.java:49:	Parameter 'lt' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:49:	Parameter 'model' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:49:	Parameter 'session' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:50:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/kmbt/csa/dav/controller/DashboardController.java:50:	Avoid unused local variables such as 'ldm'.
+src/com/kmbt/csa/dav/controller/DashboardController.java:50:	Local variable 'ldm' could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:52:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/kmbt/csa/dav/controller/DashboardController.java:52:	Avoid unused local variables such as 'it'.
+src/com/kmbt/csa/dav/controller/DashboardController.java:52:	Avoid variables with short names like it
+src/com/kmbt/csa/dav/controller/DashboardController.java:52:	Found 'DU'-anomaly for variable 'it' (lines '52'-'55').
+src/com/kmbt/csa/dav/controller/DashboardController.java:52:	Local variable 'it' could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:64:	Avoid variables with short names like lt
+src/com/kmbt/csa/dav/controller/DashboardController.java:64:	Parameter 'lt' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:64:	Parameter 'model' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:64:	Parameter 'session' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:66:	Comment is too large: Line too long
+src/com/kmbt/csa/dav/controller/DashboardController.java:67:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/kmbt/csa/dav/controller/DashboardController.java:67:	Avoid unused local variables such as 'it'.
+src/com/kmbt/csa/dav/controller/DashboardController.java:67:	Avoid variables with short names like it
+src/com/kmbt/csa/dav/controller/DashboardController.java:67:	Found 'DU'-anomaly for variable 'it' (lines '67'-'70').
+src/com/kmbt/csa/dav/controller/DashboardController.java:67:	Local variable 'it' could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:81:	Parameter 'companyName' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:81:	Parameter 'model' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:81:	Parameter 'session' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:81:	Parameter 'user' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:81:	Parameter 'yearcode' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DashboardController.java:82:	Found 'DD'-anomaly for variable 'reportsOfCompany' (lines '82'-'84').
+src/com/kmbt/csa/dav/controller/DownloadController.java:20:	Avoid unused imports such as 'org.springframework.web.bind.annotation.RequestHeader'
+src/com/kmbt/csa/dav/controller/DownloadController.java:42:	Use explicit scoping instead of the default package private level
+src/com/kmbt/csa/dav/controller/DownloadController.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/controller/DownloadController.java:45:	Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/com/kmbt/csa/dav/controller/DownloadController.java:50:	Avoid variables with short names like lt
+src/com/kmbt/csa/dav/controller/DownloadController.java:50:	Parameter 'lt' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:50:	Parameter 'model' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:51:	Local variable 'list' could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:54:	Avoid variables with short names like it
+src/com/kmbt/csa/dav/controller/DownloadController.java:54:	Local variable 'it' could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:58:	Avoid instantiating new objects inside loops
+src/com/kmbt/csa/dav/controller/DownloadController.java:61:	System.out.print is used
+src/com/kmbt/csa/dav/controller/DownloadController.java:66:	Found 'UR'-anomaly for variable 's' (lines '66'-'71').
+src/com/kmbt/csa/dav/controller/DownloadController.java:66:	Parameter 'model' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:66:	Parameter 'session' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:68:	Avoid variables with short names like sb
+src/com/kmbt/csa/dav/controller/DownloadController.java:68:	Local variable 'sb' could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:69:	Avoid variables with short names like l
+src/com/kmbt/csa/dav/controller/DownloadController.java:69:	Local variable 'l' could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:70:	Avoid variables with short names like s
+src/com/kmbt/csa/dav/controller/DownloadController.java:70:	Local variable 's' could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:71:	debug logging that involves string concatenation should be guarded with isDebugEnabled() checks
+src/com/kmbt/csa/dav/controller/DownloadController.java:74:	Avoid appending characters as strings in StringBuffer.append.
+src/com/kmbt/csa/dav/controller/DownloadController.java:76:	Local variable 'datafeed' could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:92:	Avoid variables with short names like it
+src/com/kmbt/csa/dav/controller/DownloadController.java:94:	Found 'DU'-anomaly for variable 'sdf' (lines '94'-'116').
+src/com/kmbt/csa/dav/controller/DownloadController.java:94:	Local variable 'sdf' could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:94:	When instantiating a SimpleDateFormat object, specify a Locale
+src/com/kmbt/csa/dav/controller/DownloadController.java:95:	Avoid variables with short names like i
+src/com/kmbt/csa/dav/controller/DownloadController.java:96:	Local variable 'data' could be declared final
+src/com/kmbt/csa/dav/controller/DownloadController.java:97:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/controller/DownloadController.java:100:	Avoid instantiating String objects; this is usually unnecessary.
+src/com/kmbt/csa/dav/controller/DownloadController.java:100:	Found 'DD'-anomaly for variable 'datafeed' (lines '100'-'107').
+src/com/kmbt/csa/dav/controller/DownloadController.java:100:	Found 'DD'-anomaly for variable 'datafeed' (lines '100'-'113').
+src/com/kmbt/csa/dav/controller/DownloadController.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/controller/DownloadController.java:107:	Found 'DD'-anomaly for variable 'datafeed' (lines '107'-'107').
+src/com/kmbt/csa/dav/controller/DownloadController.java:107:	Found 'DD'-anomaly for variable 'datafeed' (lines '107'-'113').
+src/com/kmbt/csa/dav/controller/DownloadController.java:107:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/controller/DownloadController.java:108:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/controller/DownloadController.java:109:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/controller/DownloadController.java:109:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/controller/DownloadController.java:110:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/controller/DownloadController.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/controller/DownloadController.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/controller/DownloadController.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/controller/DownloadController.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/controller/DownloadController.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/controller/DownloadController.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/controller/DownloadController.java:113:	Prefer StringBuffer over += for concatenating strings
+src/com/kmbt/csa/dav/controller/GglPieChart.java:25:	Parameter 'model' is not assigned and could be declared final
+src/com/kmbt/csa/dav/controller/GglPieChart.java:27:	Avoid variables with short names like s1
+src/com/kmbt/csa/dav/controller/GglPieChart.java:27:	Local variable 's1' could be declared final
+src/com/kmbt/csa/dav/controller/GglPieChart.java:28:	Avoid variables with short names like s2
+src/com/kmbt/csa/dav/controller/GglPieChart.java:28:	Local variable 's2' could be declared final
+src/com/kmbt/csa/dav/controller/GglPieChart.java:30:	Avoid variables with short names like s3
+src/com/kmbt/csa/dav/controller/GglPieChart.java:30:	Local variable 's3' could be declared final
+src/com/kmbt/csa/dav/controller/GglPieChart.java:32:	Avoid variables with short names like s4
+src/com/kmbt/csa/dav/controller/GglPieChart.java:32:	Local variable 's4' could be declared final
+src/com/kmbt/csa/dav/controller/GglPieChart.java:35:	Local variable 'pieChart' could be declared final
+src/com/kmbt/csa/dav/controller/GglPieChart.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/controller/GglPieChart.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/controller/GglPieChart.java:38:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/controller/GglPieChart.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/controller/HelloController.java:12:	Parameter 'model' is not assigned and could be declared final
+src/com/kmbt/csa/dav/dao/DataDao.java:8:	Avoid modifiers which are implied by the context
+src/com/kmbt/csa/dav/dao/DataDao.java:9:	Avoid modifiers which are implied by the context
+src/com/kmbt/csa/dav/dao/UserDao.java:7:	Avoid modifiers which are implied by the context
+src/com/kmbt/csa/dav/dao/impl/DataDaoImpl.java:6:	Avoid unused imports such as 'org.hibernate.SessionFactory'
+src/com/kmbt/csa/dav/dao/impl/DataDaoImpl.java:8:	Avoid unused imports such as 'org.springframework.beans.factory.annotation.Autowired'
+src/com/kmbt/csa/dav/dao/impl/DataDaoImpl.java:9:	Avoid unused imports such as 'org.springframework.orm.hibernate3.support.HibernateDaoSupport'
+src/com/kmbt/csa/dav/dao/impl/DataDaoImpl.java:20:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/dao/impl/DataDaoImpl.java:21:	Local variable 'list' could be declared final
+src/com/kmbt/csa/dav/dao/impl/DataDaoImpl.java:21:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/dao/impl/DataDaoImpl.java:22:	Consider simply returning the value vs storing it in local variable 'list'
+src/com/kmbt/csa/dav/dao/impl/DataDaoImpl.java:27:	Local variable 'list' could be declared final
+src/com/kmbt/csa/dav/dao/impl/DataDaoImpl.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/dao/impl/DataDaoImpl.java:28:	Consider simply returning the value vs storing it in local variable 'list'
+src/com/kmbt/csa/dav/dao/impl/UserDaoImpl.java:15:	Parameter 'username' is not assigned and could be declared final
+src/com/kmbt/csa/dav/dao/impl/UserDaoImpl.java:16:	Local variable 'userlist' could be declared final
+src/com/kmbt/csa/dav/dao/impl/UserDaoImpl.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/dao/impl/UserDaoImpl.java:18:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/kmbt/csa/dav/dao/impl/UserDaoImpl.java:18:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/dao/impl/UserDaoImpl.java:18:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/dao/impl/UserDaoImpl.java:18:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/dao/impl/UserDaoImpl.java:18:	Useless parentheses.
+src/com/kmbt/csa/dav/dao/impl/UserDaoImpl.java:18:	Useless parentheses.
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:21:	Use explicit scoping instead of the default package private level
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:31:	Parameter 'reportHolderName' is not assigned and could be declared final
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:35:	Avoid unused private fields such as 'auth'.
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:35:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:35:	Perhaps 'auth' could be replaced by a local variable.
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:43:	Parameter 'request' is not assigned and could be declared final
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:44:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:44:	Parameter 'handler' is not assigned and could be declared final
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:44:	Parameter 'response' is not assigned and could be declared final
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:45:	System.out.print is used
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:46:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:47:	Local variable 'session' could be declared final
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:49:	System.out.print is used
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:57:	Parameter 'request' is not assigned and could be declared final
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:58:	Parameter 'handler' is not assigned and could be declared final
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:58:	Parameter 'response' is not assigned and could be declared final
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:59:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:59:	Parameter 'modelAndView' is not assigned and could be declared final
+src/com/kmbt/csa/dav/interceptors/SessionSettingsInterceptor.java:61:	System.out.print is used
+src/com/kmbt/csa/dav/model/DBDataModel.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/model/DBDataModel.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/model/DBDataModel.java:19:	Document empty constructor
+src/com/kmbt/csa/dav/model/DBDataModel.java:22:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/model/DBDataModel.java:22:	Parameter 'date' is not assigned and could be declared final
+src/com/kmbt/csa/dav/model/DBDataModel.java:22:	Parameter 'functionality' is not assigned and could be declared final
+src/com/kmbt/csa/dav/model/DBDataModel.java:22:	Parameter 'usagecount' is not assigned and could be declared final
+src/com/kmbt/csa/dav/model/DBDataModel.java:36:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/model/DBDataModel.java:46:	Parameter 'functionality' is not assigned and could be declared final
+src/com/kmbt/csa/dav/model/DBDataModel.java:55:	Parameter 'date' is not assigned and could be declared final
+src/com/kmbt/csa/dav/model/DBDataModel.java:65:	Parameter 'usagecount' is not assigned and could be declared final
+src/com/kmbt/csa/dav/model/UserDataModel.java:16:	Document empty constructor
+src/com/kmbt/csa/dav/model/UserDataModel.java:19:	Parameter 'password' is not assigned and could be declared final
+src/com/kmbt/csa/dav/model/UserDataModel.java:19:	Parameter 'username' is not assigned and could be declared final
+src/com/kmbt/csa/dav/model/UserDataModel.java:29:	Parameter 'username' is not assigned and could be declared final
+src/com/kmbt/csa/dav/model/UserDataModel.java:37:	Parameter 'password' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DataModel.java:3:	Avoid unused imports such as 'java.util.Date'
+src/com/kmbt/csa/dav/pojo/DataModel.java:11:	Comment is too large: Line too long
+src/com/kmbt/csa/dav/pojo/DataModel.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/kmbt/csa/dav/pojo/DataModel.java:22:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DataModel.java:22:	Parameter 'functionality' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DataModel.java:22:	Parameter 'usagecount' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DataModel.java:22:	Parameter 'year' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DataModel.java:38:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DataModel.java:46:	Parameter 'functionality' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DataModel.java:54:	Parameter 'year' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DataModel.java:62:	Parameter 'usage' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DateDataModel.java:11:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DateDataModel.java:11:	Parameter 'date' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DateDataModel.java:11:	Parameter 'functionality' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DateDataModel.java:11:	Parameter 'usagecount' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DateDataModel.java:11:	Parameter 'year' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/DateDataModel.java:20:	Parameter 'date' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:16:	Document empty constructor
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:19:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:19:	Parameter 'date' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:19:	Parameter 'functionality' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:20:	Parameter 'month' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:20:	Parameter 'usagecount' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:20:	Parameter 'weekcode' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:20:	Parameter 'year' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:35:	Parameter 'weekcode' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:43:	Parameter 'month' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:51:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:59:	Parameter 'functionality' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:67:	Parameter 'year' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:75:	Parameter 'date' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/LogDataModel.java:83:	Parameter 'usagecount' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/MonthlyDataModel.java:12:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/MonthlyDataModel.java:12:	Parameter 'functionality' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/MonthlyDataModel.java:13:	Parameter 'month' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/MonthlyDataModel.java:13:	Parameter 'usagecount' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/MonthlyDataModel.java:13:	Parameter 'year' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/MonthlyDataModel.java:22:	Parameter 'month' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/User.java:3:	A Classname should have a minimum of five characters
+src/com/kmbt/csa/dav/pojo/User.java:13:	Parameter 'userName' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/User.java:21:	Parameter 'password' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/WEEK.java:8:	Avoid variables with short names like s
+src/com/kmbt/csa/dav/pojo/WEEK.java:8:	Parameter 's' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/WeeklyDataModel.java:11:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/WeeklyDataModel.java:11:	Parameter 'functionality' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/WeeklyDataModel.java:12:	Parameter 'usagecount' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/WeeklyDataModel.java:12:	Parameter 'weekcode' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/WeeklyDataModel.java:12:	Parameter 'year' is not assigned and could be declared final
+src/com/kmbt/csa/dav/pojo/WeeklyDataModel.java:21:	Parameter 'weekcode' is not assigned and could be declared final
+src/com/kmbt/csa/dav/util/CustomHibernateDaoSupport.java:7:	Abstract classes should be named AbstractXXX
+src/com/kmbt/csa/dav/util/CustomHibernateDaoSupport.java:10:	Parameter 'sessionFactory' is not assigned and could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:13:	Avoid unused imports such as 'org.springframework.stereotype.Controller'
+src/com/kmbt/csa/dav/util/DAHandler.java:32:	Avoid unused private methods such as 'setData(List)'.
+src/com/kmbt/csa/dav/util/DAHandler.java:32:	Parameter 'data' is not assigned and could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:38:	Parameter 'data' is not assigned and could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:61:	Parameter 'companyname' is not assigned and could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:62:	Local variable 'list' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:63:	Found 'DD'-anomaly for variable 'log' (lines '63'-'67').
+src/com/kmbt/csa/dav/util/DAHandler.java:63:	Found 'DU'-anomaly for variable 'log' (lines '63'-'73').
+src/com/kmbt/csa/dav/util/DAHandler.java:64:	Local variable 'loglist' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:65:	Avoid variables with short names like it
+src/com/kmbt/csa/dav/util/DAHandler.java:65:	Local variable 'it' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:65:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:68:	Avoid instantiating new objects inside loops
+src/com/kmbt/csa/dav/util/DAHandler.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:84:	Local variable 'list' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:85:	Found 'DD'-anomaly for variable 'log' (lines '85'-'89').
+src/com/kmbt/csa/dav/util/DAHandler.java:85:	Found 'DU'-anomaly for variable 'log' (lines '85'-'95').
+src/com/kmbt/csa/dav/util/DAHandler.java:86:	Local variable 'loglist' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:87:	Avoid variables with short names like it
+src/com/kmbt/csa/dav/util/DAHandler.java:87:	Local variable 'it' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:87:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:90:	Avoid instantiating new objects inside loops
+src/com/kmbt/csa/dav/util/DAHandler.java:90:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:90:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:91:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:91:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:91:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:106:	Local variable 'list' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:107:	Found 'DD'-anomaly for variable 'log' (lines '107'-'111').
+src/com/kmbt/csa/dav/util/DAHandler.java:107:	Found 'DU'-anomaly for variable 'log' (lines '107'-'117').
+src/com/kmbt/csa/dav/util/DAHandler.java:108:	Local variable 'loglist' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:109:	Avoid variables with short names like it
+src/com/kmbt/csa/dav/util/DAHandler.java:109:	Local variable 'it' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:109:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:112:	Avoid instantiating new objects inside loops
+src/com/kmbt/csa/dav/util/DAHandler.java:112:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:112:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:113:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:113:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:113:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:128:	Local variable 'list' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:129:	Found 'DD'-anomaly for variable 'log' (lines '129'-'133').
+src/com/kmbt/csa/dav/util/DAHandler.java:129:	Found 'DU'-anomaly for variable 'log' (lines '129'-'139').
+src/com/kmbt/csa/dav/util/DAHandler.java:130:	Local variable 'loglist' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:131:	Avoid variables with short names like it
+src/com/kmbt/csa/dav/util/DAHandler.java:131:	Local variable 'it' could be declared final
+src/com/kmbt/csa/dav/util/DAHandler.java:131:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:134:	Avoid instantiating new objects inside loops
+src/com/kmbt/csa/dav/util/DAHandler.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/util/DAHandler.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/com/kmbt/csa/dav/validator/UserValidator.java:12:	Parameter 'clazz' is not assigned and could be declared final
+src/com/kmbt/csa/dav/validator/UserValidator.java:14:	Potential violation of Law of Demeter (method chain calls)
+src/com/kmbt/csa/dav/validator/UserValidator.java:19:	Parameter 'errors' is not assigned and could be declared final
+src/com/kmbt/csa/dav/validator/UserValidator.java:19:	Parameter 'target' is not assigned and could be declared final
